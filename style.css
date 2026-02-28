@@ -42,3 +42,27 @@ footer {
     background-color: #ce2222; 
     transform: scale(1.05);
 }
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+}
+
+
+.socialButton {
+    background-color: #C0C0C0; 
+    color: #333;              
+    padding: 8px 16px;      
+    border-radius: 5px;      
+    text-decoration: none;   
+    font-weight: bold;
+    display: inline-block;   
+    transition: 0.3s;
+}
+
+.socialButton:hover {
+    background-color: #fffafa; 
+    transform: scale(1.05);   
+}
