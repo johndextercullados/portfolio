@@ -1,1 +1,44 @@
-style.css
+body {
+    background-color: #837b7b;
+    font-family: Arial, sans-serif;
+    padding: 35px;
+    text-align: center
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;    
+    right: 0;   
+    width: 100%;
+    z-index: 1000; 
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.navigationLinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.navigationButton {
+    background-color: #C0C0C0; 
+    color: #333;               
+    padding: 8px 16px;         
+    border-radius: 5px;        
+    text-decoration: none;     
+    font-weight: bold;
+    display: inline-block;     
+    transition: 0.3s;
+}
+
+.navigationButton:hover {
+    background-color: #ce2222; 
+    transform: scale(1.05);
+}
