@@ -19,6 +19,40 @@ footer {
     font-size: 20px;
 }
 
+.myProfileImage-img {
+    width: 80%;
+    max-width: 250px; 
+    border-radius: 1%; 
+    border: 5px solid #C0C0C0; 
+    margin: 0 auto;
+}
+
+
+section#index-name {
+    padding: 1px;
+    border-radius: 8px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Garamond", serif;
+}
+
+section#index-startingLine {
+    border-radius: 8px;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Papyrus", fantasy;
+}
+
 .navigationLinks {
     display: flex;
     justify-content: center;
@@ -49,7 +83,6 @@ footer {
     gap: 20px;
     color: #ffffff;
 }
-
 
 .socialButton {
     background-color: #C0C0C0; 
