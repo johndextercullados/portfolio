@@ -1,49 +1,45 @@
 body {
-    background-color: #837b7b;
-    font-family: Arial, sans-serif;
+    background-color: #837b7b;        /* Whole background color, main screen */
+    font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
     padding: 35px;
-    text-align: center
+    text-align: center                  /* always center ang elements */
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #333;           /* color of the footer, bg color of the socialLinks */
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+    position: fixed;                    /* puts the footer in a relative position */
+    bottom: 0;                          /* these 3 ensures the footer touches end to end of screen */
     left: 0;    
     right: 0;   
-    width: 100%;
-    z-index: 1000; 
-    color: #ffffff;
-    font-size: 20px;
+    width: 100%;                        /* full lenght of the footer */
+    z-index: 1000;                      /* makes the footer be "on top", maybe will come in handy later with scroll view */
 }
 
+/* main profile picture in the index page */
 .myProfileImage-img {
-    width: 80%;
-    max-width: 250px; 
-    border-radius: 1%; 
+    width: 100%;                        /* a constraint, how big the image is */
+    max-width: 250px;                   /* max size limit, so it doenst get too big */
+    border-radius: 1%;                  /* soft edge */
     border: 5px solid #C0C0C0; 
-    margin: 0 auto;
+    margin: 0 auto;                     /* centering inside its container */
 }
 
 
 section#index-name {
     padding: 1px;
-    border-radius: 8px;
-    margin-top: -10px;
+    margin-top: -10px;                  /* pulls the text upward, avoiding deadspace */
     margin-bottom: 0px;
-    margin-left: auto;
+    margin-left: auto;                  /* automatic center */                  
     margin-right: auto;
-    width: 80%;
+    width: 80%;                         /* acts like a constraint, so i doesnt get too big or small in different screens */
     color: #ffffff;
     font-size: 20px;
     font-family: "Garamond", serif;
 }
 
 section#index-startingLine {
-    border-radius: 8px;
-    margin-top: -30px;
+    margin-top: -30px;                  /* pulls the text upward, avoiding deadspace */
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -55,26 +51,26 @@ section#index-startingLine {
 
 .navigationLinks {
     display: flex;
-    justify-content: center;
+    justify-content: center;            /* centers the contents */
     margin-top: 50px;
-    gap: 20px;
+    gap: 20px;                          /* gap between buttons */
     color: #ffffff;
 }
 
 .navigationButton {
     background-color: #C0C0C0; 
     color: #333;               
-    padding: 8px 16px;         
-    border-radius: 5px;        
-    text-decoration: none;     
-    font-weight: bold;
+    padding: 8px 16px;                  /* padding inside the button, top/bottom then right/left */         
+    border-radius: 5px;                 /* round edges */        
+    text-decoration: none;              /* IMPORTANT: removes underline and color */     
+    font-weight: bold;                  /* bold text */
     display: inline-block;     
-    transition: 0.3s;
+
 }
 
 .navigationButton:hover {
-    background-color: #ce2222; 
-    transform: scale(1.05);
+    background-color: #ce2222;      /* when hovered over the ebutton, changes color */ 
+    transform: scale(1.05);           /* when hovered, the button gets bigger */
 }
 
 .socialLinks {
