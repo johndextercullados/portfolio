@@ -25,7 +25,7 @@ footer {
     margin: 0 auto;                     /* centering inside its container */
 }
 
-
+/* this is a section, typically used to separate content in the body*/
 section#index-name {
     padding: 1px;
     margin-top: -10px;                  /* pulls the text upward, avoiding deadspace */
@@ -49,6 +49,7 @@ section#index-startingLine {
     font-family: "Papyrus", fantasy;
 }
 
+/* a class, sort of like a method, you can access this anywhere, para same design*/
 .navigationLinks {
     display: flex;
     justify-content: center;            /* centers the contents */
@@ -64,13 +65,12 @@ section#index-startingLine {
     border-radius: 5px;                 /* round edges */        
     text-decoration: none;              /* IMPORTANT: removes underline and color */     
     font-weight: bold;                  /* bold text */
-    display: inline-block;     
-
+    display: inline-block;              /* inlines the buttons, so pantay sila lahat */
 }
 
 .navigationButton:hover {
-    background-color: #ce2222;      /* when hovered over the ebutton, changes color */ 
-    transform: scale(1.05);           /* when hovered, the button gets bigger */
+    background-color: #ce2222;        /* when hovered over the ebutton, changes color */ 
+    transform: scale(1.05);             /* when hovered, the button gets bigger */
 }
 
 .socialLinks {
@@ -94,4 +94,38 @@ section#index-startingLine {
 .socialButton:hover {
     background-color: #fffafa; 
     transform: scale(1.05);   
+}
+
+.pageTitle {
+    color: #000000;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Garamond", serif;
+    margin-top: -60px;
+    margin-bottom: 20px; 
+}
+
+/*made use of flexbox, section is the parent and the 2 div are the child,,, this is to create 2 columns*/
+.two-column-container {
+    display: flex;                      /* Flexbox, makes it so that child 1 and 2 does not stack*/
+    align-items: center;
+    justify-content: center;            /* Aligns items to the left and right edges */
+    gap: 40px;                          /* gap between child 1 and 2*/
+    margin-top: -50px;
+}
+
+/* child 1 */
+.column-left {
+    flex: 1.5;                            /* this makes the 2 columns proportionally equal inside the section */
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: justify;
+}
+
+/* child 2 */
+.column-right {
+    flex: 1;
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
 }
