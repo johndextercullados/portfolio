@@ -1,0 +1,175 @@
+body {
+    background-color: #837b7b;        /* Whole background color, main screen */
+    font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
+    padding: 40px;
+    text-align: center                  /* always center ang elements */
+}
+footer {
+    background-color: #333;           /* color of the footer, bg color of the socialLinks */
+    padding: 10px 0;
+    position: fixed;                    /* puts the footer in a relative position */
+    bottom: 0;                          /* these 3 ensures the footer touches end to end of screen */
+    left: 0;    
+    right: 0;   
+    width: 100%;                        /* full lenght of the footer */
+    z-index: 1000;                      /* makes the footer be "on top", maybe will come in handy later with scroll view */
+}
+
+
+/* main profile picture in the index page */
+img#myProfileImage-img {
+    width: 100%;                        /* a constraint, how big the image is */
+    max-width: 250px;                   /* max size limit, so it doenst get too big */
+    border-radius: 5%;                  /* soft edge */
+    border: 5px solid #C0C0C0; 
+    margin: 0 auto;                     /* centering inside its container */
+}
+/* this is a section, typically used to separate content in the body*/
+section#index-name {
+    padding: 1px;
+    margin-top: -10px;                  /* pulls the text upward, avoiding deadspace */
+    margin-bottom: 0px;
+    margin-left: auto;                  /* automatic center */                  
+    margin-right: auto;
+    width: 80%;                         /* acts like a constraint, so i doesnt get too big or small in different screens */
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Garamond", serif;
+}
+section#index-startingLine {
+    margin-top: -30px;                  /* pulls the text upward, avoiding deadspace */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Papyrus", fantasy;
+}
+
+
+/* a class, sort of like a method, you can access this anywhere, para same design*/
+.navigationLinks {
+    display: flex;
+    justify-content: center;            /* centers the contents */
+    gap: 20px;                          /* gap between buttons */
+    color: #ffffff;
+}
+/* button design */
+.navigationButton {
+    background-color: #C0C0C0; 
+    color: #333;               
+    padding: 8px 16px;                  /* padding inside the button, top/bottom then right/left */         
+    border-radius: 5px;                 /* round edges */        
+    text-decoration: none;              /* IMPORTANT: removes underline and color */     
+    font-weight: bold;                  /* bold text */
+    display: inline-block;              /* inlines the buttons, so pantay sila lahat */
+    margin-bottom: 20px;              
+}
+/* what happens when u hover the mouse */
+.navigationButton:hover {
+    background-color: #ce2222;        /* when hovered over the ebutton, changes color */ 
+    transform: scale(1.05);             /* when hovered, the button gets bigger */
+}
+
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+}
+.socialButton {
+    background-color: #C0C0C0; 
+    color: #333;              
+    padding: 8px 16px;      
+    border-radius: 5px;      
+    text-decoration: none;   
+    font-weight: bold;
+    display: inline-block;   
+    transition: 0.3s;
+}
+.socialButton:hover {
+    background-color: #ce2222; 
+    transform: scale(1.05);   
+}
+
+
+/*made use of flexbox, section is the parent and the 2 div are the child,,, this is to create 2 columns*/
+/* parent */
+.two-column-container {
+    display: flex;                      /* Flexbox, makes it so that child 1 and 2 does not stack*/
+    align-items: center;
+    justify-content: center;            /* Aligns items to the left and right edges */
+    gap: 40px;                          /* gap between child 1 and 2*/
+    margin-top: -50px;
+}
+/* child 1 */
+.column-left {
+    color: #000000;
+    flex: 1.5;                           /* Ratio, this makes the 2 columns proportionally equal inside the section */
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
+/* child 2 */
+.column-right {
+    flex: 1;                             /* Ratio, this makes the 2 columns proportionally equal inside the section */                            
+    font-size: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.lineBreak {
+    border: 1px solid #000000;         /* line separator, color and thickness */
+    margin: 10px 0;                    
+}
+
+h2#aboutMeTitle {
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Garamond", serif;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+section#aboutMeParagraph {
+    display: block;                     /* Forces it to be its own block, so separatee them */
+    width: 100%;                        /* spans end to end of the column */
+    color: #000000;          
+    font-size: 20px;
+    text-align: justify;     
+    font-family: "Garamond", serif;
+    margin-top: 20px;       
+    margin-bottom: 30px;
+}
+
+
+h2#experienceTitle {
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Garamond", serif;
+    margin-top: 2%;
+    margin-bottom: 10px; 
+}
+section#experienceParagraph {
+    display: block;                     /* Forces it to be its own block, so separatee them */
+    width: 100%;                        /* spans end to end of the column */
+    color: #000000;          
+    font-size: 20px;
+    text-align: justify;     
+    font-family: "Garamond", serif;
+    margin-top: 20px;       
+    margin-bottom: 30px;
+}
+
+
+img#myProfileImageAboutMe-img {
+    width: 100%;                        /* a constraint, how big the image is */
+    max-width: 300px;                   /* max size limit, so it doenst get too big */
+    border-radius: 5%;                  /* soft edge */
+    border: 5px solid #C0C0C0; 
+    margin: 0 auto;                     /* centering inside its container */
+}
