@@ -98,31 +98,6 @@ section#index-startingLine {
 }
 
 
-/*made use of flexbox, section is the parent and the 2 div are the child,,, this is to create 2 columns*/
-/* parent */
-.two-column-container {
-    display: flex;                      /* Flexbox, makes it so that child 1 and 2 does not stack*/
-    align-items: center;
-    justify-content: center;            /* Aligns items to the left and right edges */
-    gap: 40px;                          /* gap between child 1 and 2*/
-    margin-top: -50px;
-}
-/* child 1 */
-.column-left {
-    color: #000000;
-    flex: 1.5;                           /* Ratio, this makes the 2 columns proportionally equal inside the section */
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: justify;
-}
-/* child 2 */
-.column-right {
-    flex: 1;                             /* Ratio, this makes the 2 columns proportionally equal inside the section */                            
-    font-size: 20px;
-    padding-top: 0px;
-    text-align: center;
-}
-
 
 .lineBreak {
     border: 1px solid #000000;         /* line separator, color and thickness */

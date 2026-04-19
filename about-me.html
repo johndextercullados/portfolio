@@ -6,51 +6,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <section class="two-column-container">
-
-        <div class="column-left"> <!-- child 1 -->
-            <h2  id ="aboutMeTitle">About me</h2>
-
-            <hr class="lineBreak">
-
-            <section id="aboutMeParagraph">   
-                <p>Hello, this is jsut a test text, rto see how the paragraph will behave on the screen, this is not the final text, just testing a block of text that will reside in here, also di you know, theres a type of mushroom that kills a tree from under the ground? idk its scientific nmame but it is called "honey mushroom" or something, basically if you see these gold-like with balck spots mushroom at the foot of a tree, that means that tree is already dead from the mushroom eating its nutriets from the roots. a funfact for us but not so much for the tree MHUAHUAHUAHAHUAUAH</p>
-            </section>
-
-            <h2  id ="experienceTitle">Experience</h2>
-            <hr class="lineBreak">
-
-            <section id="experienceParagraph">   
-                <p>Hello, this is jsut a test text, rto see how the paragraph will behave on the screen, this is not the final text, just testing a block of text that will reside in here, also di you know, theres a type of mushroom that kills a tree from under the ground? idk its scientific nmame but it is called "honey mushroom" or something, basically if you see these gold-like with balck spots mushroom at the foot of a tree, that means that tree is already dead from the mushroom eating its nutriets from the roots. a funfact for us but not so much for the tree MHUAHUAHUAHAHUAUAH</p>
-            </section>
-        </div>
-        
-        <div class="column-right"> <!-- child 2 -->
-            <img src="my-profile-image.jpeg" alt="Dexter Cullados Profile Picture" id="myProfileImageAboutMe-img">
+    <main class="container my-3 pb-2">
+        <div class="row align-items-center">
             
-            <section id="index-name">
-                <h2>John Dexter Cullados</h2>
-            </section>
+            <div class="col-lg-7 col-12 text-start order-2 order-lg-1">
+                <h2 id="aboutMeTitle">About me</h2>
+                <hr class="lineBreak">
+                <section id="aboutMeParagraph">   
+                    <p>
+                        Hello, this is jsut a test text, rto see how the paragraph will behave on the screen, this is not the final text, just testing a block of text that will reside in here, also di you know, theres a type of mushroom that kills a tree from under the ground? idk its scientific nmame but it is called "honey mushroom" or something, basically if you see these gold-like with balck spots mushroom at the foot of a tree, that means that tree is already dead from the mushroom eating its nutriets from the roots. a funfact for us but not so much for the tree MHUAHUAHUAHAHUAUAH
+                    </p>
+                </section>
 
-            <section id="index-startingLine">
-                <p>Logic will get you from A to B. Imagination will take you everywhere.</p>
-            </section>
+                <h2 id="experienceTitle">Experience</h2>
+                <hr class="lineBreak">
+                <section id="experienceParagraph">   
+                    <p>
+                        Hello, this is jsut a test text, rto see how the paragraph will behave on the screen, this is not the final text, just testing a block of text that will reside in here, also di you know, theres a type of mushroom that kills a tree from under the ground? idk its scientific nmame but it is called "honey mushroom" or something, basically if you see these gold-like with balck spots mushroom at the foot of a tree, that means that tree is already dead from the mushroom eating its nutriets from the roots. a funfact for us but not so much for the tree MHUAHUAHUAHAHUAUAH
+                    </p>
+                </section>
+            </div>
+            
+            <div class="col-lg-5 col-12 text-center mb-5 mb-lg-0 order-1 order-lg-2">
+                <img src="my-profile-image.jpeg" alt="John Dexter Cullados profile picture" id="myProfileImageAboutMe-img" class="img-fluid rounded shadow-lg border border-secondary">
+                
+                <section id="index-name" class="mt-3">
+                    <h2 class="h3">John Dexter Cullados</h2>
+                </section>
+
+                <section id="index-startingLine" class="mt-1">
+                    <p class="text-muted fst-italic">
+                        "Logic will get you from A to B. Imagination will take you everywhere."
+                    </p>
+                </section>
+            </div>
+
         </div>
+    </main>
 
-    </section>
+    <main class="container my-3 pb-2">
+        <nav class = "navigationLinks">
+            <a href="index.html" class="navigationButton">Home</a>
+            <a href="about-me.html" class="navigationButton">About Me</a>
+            <a href="tech-stack.html" class="navigationButton">Tech Stack</a>
+            <a href="certification.html" class="navigationButton">Certifications</a>
+            <a href="education-background.html" class="navigationButton">Education</a>
+        </nav>
+    </main>
 
-    <nav class = "navigationLinks">
-        <a href="index.html" class="navigationButton">Home</a>
-        <a href="about-me.html" class="navigationButton">About Me</a>
-        <a href="tech-stack.html" class="navigationButton">Tech Stack</a>
-        <a href="certification.html" class="navigationButton">Certifications</a>
-        <a href="education-background.html" class="navigationButton">Education</a>
-    </nav>
 </body>
 
 <footer>
