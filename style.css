@@ -54,6 +54,7 @@ section#index-startingLine {
     justify-content: center;            /* centers the contents */
     gap: 20px;                          /* gap between buttons */
     color: #ffffff;
+    flex-wrap: wrap;
 }
 /* button design */
 .navigationButton {
@@ -78,6 +79,8 @@ section#index-startingLine {
     justify-content: center;
     gap: 20px;
     color: #ffffff;
+    flex-wrap: wrap;
+
 }
 .socialButton {
     background-color: #C0C0C0; 
