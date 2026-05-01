@@ -2,6 +2,7 @@ body {
     background-color: #837b7b;        /* Whole background color, main screen */
     font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
     padding: 40px;
+    padding-top: 70px;                  /* to avoid the navbar, since its fixed at the top */
     text-align: center                  /* always center ang elements */
 }
 footer {
