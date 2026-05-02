@@ -153,3 +153,21 @@ img#myProfileImageAboutMe-img {
     border: 5px solid #C0C0C0; 
     margin: 0 auto;                     /* centering inside its container */
 }
+
+
+.tech-logo {
+    width: 80px;                        /* Fixed width */
+    height: 80px;                       /* Fixed height */
+    object-fit: contain;                /* Keeps aspect ratio */
+    transition: 0.3s;                   /* hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px);       /* para umangat */ 
+    
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border-radius: 15px;                /* soft edges */
+}
