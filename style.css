@@ -27,22 +27,21 @@ img#myProfileImage-img {
 }
 /* this is a section, typically used to separate content in the body*/
 section#index-name {
-    padding: 1px;
-    margin-top: -10px;                  /* pulls the text upward, avoiding deadspace */
     margin-bottom: 0px;
     margin-left: auto;                  /* automatic center */                  
     margin-right: auto;
-    width: 80%;                         /* acts like a constraint, so i doesnt get too big or small in different screens */
+    width: 100%;                         /* acts like a constraint, so i doesnt get too big or small in different screens */
     color: #ffffff;
     font-size: 20px;
     font-family: "Garamond", serif;
     font-family: 'Montserrat', sans-serif;
+
 }
 section#index-startingLine {
     margin-top: -30px;                  /* pulls the text upward, avoiding deadspace */
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     color: #ffffff;
     font-size: 20px;
     font-style: italic;
@@ -164,7 +163,7 @@ img#myProfileImageAboutMe-img {
 
 .card:hover {
     transform: translateY(-10px);       /* para umangat */ 
-    
+
 }
 
 .card {
