@@ -19,9 +19,9 @@ footer {
 
 /* main profile picture in the index page */
 img#myProfileImage-img {
-    width: 100%;                        /* a constraint, how big the image is */
+    width: 108%;                        /* a constraint, how big the image is */
     max-width: 250px;                   /* max size limit, so it doenst get too big */
-    border-radius: 5%;                  /* soft edge */
+    border-radius: 10%;                  /* soft edge */
     border: 5px solid #C0C0C0; 
     margin: 0 auto;                     /* centering inside its container */
 }
@@ -36,6 +36,7 @@ section#index-name {
     color: #ffffff;
     font-size: 20px;
     font-family: "Garamond", serif;
+    font-family: 'Montserrat', sans-serif;
 }
 section#index-startingLine {
     margin-top: -30px;                  /* pulls the text upward, avoiding deadspace */
