@@ -1,8 +1,8 @@
 body {
     background-color: #837b7b;        /* Whole background color, main screen */
     font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
-    padding: 40px;
-    padding-top: 70px;                  /* to avoid the navbar, since its fixed at the top */
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center                  /* always center ang elements */
 }
 footer {
@@ -20,34 +20,10 @@ footer {
 /* main profile picture in the index page */
 img#myProfileImage-img {
     width: 108%;                        /* a constraint, how big the image is */
-    max-width: 250px;                   /* max size limit, so it doenst get too big */
+    max-width: 320px;                   /* max size limit, so it doenst get too big */
     border-radius: 10%;                  /* soft edge */
-    border: 5px solid #C0C0C0; 
-    margin: 0 auto;                     /* centering inside its container */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 1);   /* adds a shadow effect LMAO */
 }
-/* this is a section, typically used to separate content in the body*/
-section#index-name {
-    margin-bottom: 0px;
-    margin-left: auto;                  /* automatic center */                  
-    margin-right: auto;
-    width: 100%;                         /* acts like a constraint, so i doesnt get too big or small in different screens */
-    color: #ffffff;
-    font-size: 20px;
-    font-family: "Garamond", serif;
-    font-family: 'Montserrat', sans-serif;
-
-}
-section#index-startingLine {
-    margin-top: -30px;                  /* pulls the text upward, avoiding deadspace */
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    color: #ffffff;
-    font-size: 20px;
-    font-style: italic;
-    font-family: "Papyrus", fantasy;
-}
-
 
 /* a class, sort of like a method, you can access this anywhere, para same design*/
 .navigationLinks {
