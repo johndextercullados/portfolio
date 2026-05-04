@@ -202,8 +202,10 @@ img#myProfileImageAboutMe-img {
 }
 
 
-@media (min-width: 992px) {             /* for the responsive design in new hamburger */
+@media (min-width: 700px) {
     .navbar-nav .nav-link {
-        text-align: left;
+        text-align: left;               /* text inside burger */
+        padding-left: 1.5rem; 
+        padding-right: 1.5rem;
     }
 }
