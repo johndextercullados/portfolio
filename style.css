@@ -170,3 +170,18 @@ img#myProfileImageAboutMe-img {
     transition: transform 0.3s ease;
     border-radius: 15px;                /* soft edges */
 }
+
+.card-img-top:hover {
+    opacity: 0.8;
+    cursor: zoom-in;                    /* ginagawang magnifying glass*/
+    transition: 0.3s;
+}
+
+.cert-badge {
+    width: 10px;           /* Adjust this to make the badge fit the 'box' better */
+    height: auto;
+    margin: 20px auto;      /* Adds nice breathing room inside the card */
+    display: block;
+    cursor: zoom-in;
+    transition: 0.3s ease;
+}
