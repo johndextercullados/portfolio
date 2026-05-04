@@ -195,14 +195,14 @@ img#myProfileImageAboutMe-img {
     z-index: -1;                        /* Z FOR DIMENSION*/
 }
 
-/* Ensure navbar links align properly regardless of body centering */
 .navbar-nav .nav-link {
     text-align: left;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-@media (min-width: 992px) {
+
+@media (min-width: 992px) {             /* for the responsive design in new hamburger */
     .navbar-nav .nav-link {
         text-align: left;
     }
