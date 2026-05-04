@@ -194,3 +194,16 @@ img#myProfileImageAboutMe-img {
     height: 100%;
     z-index: -1;                        /* Z FOR DIMENSION*/
 }
+
+/* Ensure navbar links align properly regardless of body centering */
+.navbar-nav .nav-link {
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        text-align: left;
+    }
+}
