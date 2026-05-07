@@ -3,17 +3,6 @@ body {
     font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
     text-align: center                  /* always center ang elements */
 }
-footer {
-    background-color: #333;           /* color of the footer, bg color of the socialLinks */
-    padding: 10px 0;
-    position: fixed;                    /* puts the footer in a relative position */
-    bottom: 0;                          /* these 3 ensures the footer touches end to end of screen */
-    left: 0;    
-    right: 0;   
-    width: 100%;                        /* full lenght of the footer */
-    z-index: 1000;                      /* makes the footer be "on top", maybe will come in handy later with scroll view */
-}
-
 
 /* main profile picture in the index page */
 img#myProfileImage-img {
@@ -31,25 +20,6 @@ img#myProfileImage-img {
     color: #ffffff;
     flex-wrap: wrap;
 }
-/* button design */
-.navigationButton {
-    background-color: #C0C0C0; 
-    color: #333;               
-    padding: 8px 16px;                  /* padding inside the button, top/bottom then right/left */         
-    border-radius: 5px;                 /* round edges */        
-    text-decoration: none;              /* IMPORTANT: removes underline and color */     
-    font-weight: bold;                  /* bold text */
-    display: inline-block;              /* inlines the buttons, so pantay sila lahat */
-    margin-bottom: 20px;              
-}
-
-/* what happens when u hover the mouse */
-.navigationButton:hover {
-    background-color: #ce2222;        /* when hovered over the ebutton, changes color */ 
-    transform: scale(1.05);             /* when hovered, the button gets bigger */
-}
-
-
 .socialLinks {
     display: flex;
     justify-content: center;
@@ -58,75 +28,12 @@ img#myProfileImage-img {
     flex-wrap: wrap;
 
 }
-.socialButton {
-    background-color: #C0C0C0; 
-    color: #333;              
-    padding: 8px 16px;      
-    border-radius: 5px;      
-    text-decoration: none;   
-    font-weight: bold;
-    display: inline-block;   
-    transition: 0.3s;
-}
-.socialButton:hover {
-    background-color: #ce2222; 
-    transform: scale(1.05);   
-}
-
-
 
 .lineBreak {
     border: 1px solid #000000;         /* line separator, color and thickness */
     margin: 10px 0;                    
 }
 
-h2#aboutMeTitle {
-    color: #000000;
-    font-size: 30px;
-    text-align: left;
-    font-family: "Garamond", serif;
-    margin-top: 20px;
-    margin-bottom: 10px; 
-}
-section#aboutMeParagraph {
-    display: block;                     /* Forces it to be its own block, so separatee them */
-    width: 100%;                        /* spans end to end of the column */
-    color: #000000;          
-    font-size: 20px;
-    text-align: justify;     
-    font-family: "Garamond", serif;
-    margin-top: 20px;       
-    margin-bottom: 30px;
-}
-
-
-h2#experienceTitle {
-    color: #000000;
-    font-size: 30px;
-    text-align: left;
-    font-family: "Garamond", serif;
-    margin-top: 2%;
-    margin-bottom: 10px; 
-}
-section#experienceParagraph {
-    display: block;                     /* Forces it to be its own block, so separatee them */
-    width: 100%;                        /* spans end to end of the column */
-    color: #000000;          
-    font-size: 20px;
-    text-align: justify;     
-    font-family: "Garamond", serif;
-    margin-top: 20px;       
-    margin-bottom: 30px;
-}
-
-
-img#myProfileImageAboutMe-img {
-    width: 100%;                        /* a constraint, how big the image is */
-    max-width: 300px;                   /* max size limit, so it doenst get too big */
-    border-radius: 5%;                  /* soft edge */
-    border: 5px solid #C0C0C0; 
-    margin: 0 auto;                     /* centering inside its container */
-}
 
 
 .tech-logo {
