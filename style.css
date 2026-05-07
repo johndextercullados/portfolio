@@ -26,14 +26,12 @@ img#myProfileImage-img {
     gap: 20px;
     color: #ffffff;
     flex-wrap: wrap;
-
 }
 
 .lineBreak {
     border: 1px solid #000000;         /* line separator, color and thickness */
     margin: 10px 0;                    
 }
-
 
 
 .tech-logo {
