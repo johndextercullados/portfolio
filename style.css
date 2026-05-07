@@ -1,8 +1,6 @@
 body {
     background-color: #837b7b;        /* Whole background color, main screen */
     font-family: Arial, sans-serif;     /* settings for dafault, if walang designated settings */
-    padding-left: 40px;
-    padding-right: 40px;
     text-align: center                  /* always center ang elements */
 }
 footer {
@@ -44,6 +42,7 @@ img#myProfileImage-img {
     display: inline-block;              /* inlines the buttons, so pantay sila lahat */
     margin-bottom: 20px;              
 }
+
 /* what happens when u hover the mouse */
 .navigationButton:hover {
     background-color: #ce2222;        /* when hovered over the ebutton, changes color */ 
