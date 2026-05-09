@@ -49,6 +49,8 @@ img#myProfileImage-img {
 .card {
     transition: transform 0.3s ease;
     border-radius: 15px;                /* soft edges */
+    max-width: 300px;  
+    margin: 0 auto;    
 }
 
 .card-img-top:hover {
