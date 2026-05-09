@@ -5,30 +5,14 @@ body {
 }
 
 /* main profile picture in the index page */
-img#myProfileImage-img {
+img#my-profile-image{
     width: 108%;                        /* a constraint, how big the image is */
     max-width: 320px;                   /* max size limit, so it doenst get too big */
     border-radius: 10%;                  /* soft edge */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 1);   /* adds a shadow effect LMAO */
 }
 
-/* a class, sort of like a method, you can access this anywhere, para same design*/
-.navigationLinks {
-    display: flex;
-    justify-content: center;            /* centers the contents */
-    gap: 20px;                          /* gap between buttons */
-    color: #ffffff;
-    flex-wrap: wrap;
-}
-.socialLinks {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    color: #ffffff;
-    flex-wrap: wrap;
-}
-
-.lineBreak {
+.line-break {
     border: 1px solid #000000;         /* line separator, color and thickness */
     margin: 10px 0;                    
 }
