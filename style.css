@@ -11,6 +11,7 @@ img#my-profile-image{
     max-width: 320px;                   /* max size limit, so it doenst get too big */
     border-radius: 10%;                  /* soft edge */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 1);   /* adds a shadow effect LMAO */
+    
 }
 
 .line-break {
@@ -28,14 +29,16 @@ img#my-profile-image{
 
 .card:hover {
     transform: translateY(-10px);       /* para umangat */ 
-
+    box-shadow: 0px 15px 35px rgba(179, 154, 160, 0.4);   /* Adds a colored shadow */
+    border-color: #ffffff !important;
 }
 
 .card {
     transition: transform 0.3s ease;
     border-radius: 15px;                /* soft edges */
     max-width: 300px;  
-    margin: 0 auto;    
+    margin: 0 auto;
+    min-height: 190px;    
 }
 
 .card-img-top:hover {
