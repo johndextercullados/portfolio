@@ -36,9 +36,8 @@ img#my-profile-image{
 .card {
     transition: transform 0.3s ease;
     border-radius: 15px;                /* soft edges */
-    max-width: 300px;  
-    margin: 0 auto;
-    min-height: 190px;    
+    max-width: 250px;  
+    margin: 0 auto;                        /* centers the card */
 }
 
 .card-img-top:hover {
