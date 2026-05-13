@@ -70,7 +70,6 @@ img#my-profile-image{
     padding-right: 1rem;
 }
 
-
 @media (min-width: 700px) {
     .navbar-nav .nav-link {
         text-align: left;               /* text inside burger */

@@ -47,7 +47,8 @@
             </div>
 
             <div class="col-12 col-lg-8 text-white">
-                <div class="p-4 rounded shadow-lg" style="background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px); margin-top: -40px;">
+                <div class="p-4 rounded shadow-lg"
+                    style="background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px); margin-top: -40px;">
 
                     <!-- ABOUT ME AREA -->
                     <section class="mb-5">
@@ -57,11 +58,15 @@
                         </h2>
                         <hr style="border-top: 2px solid #b39aa0; width: MAX; opacity: 1;">
 
-                        <p class="fs-5" style="font-family: 'Montserrat', sans-serif; line-height: 1.8; text-align: justify;">
+                        <p class="fs-5"
+                            style="font-family: 'Montserrat', sans-serif; line-height: 1.8; text-align: justify;">
                             I am a second year Bachelor of Science in Information Technology student at St. Dominic
-                            College of Asia with a passion for learning. <B>I pride myself on being an adaptable learner.</B>
+                            College of Asia with a passion for learning. <B>I pride myself on being an adaptable
+                                learner.</B>
                             With the right mentorship or training, I have the confidence to master systems and integrate
-                            them into my workflow. Beyond coding, I am a natural communicator who excels at <B><i>going with the flow.</i></B> Whether leading a project or presenting a report, I remain confident and take the
+                            them into my workflow. Beyond coding, I am a natural communicator who excels at <B><i>going
+                                    with the flow.</i></B> Whether leading a project or presenting a report, I remain
+                            confident and take the
                             initiative to push for success.
                         </p>
                     </section>
@@ -74,8 +79,14 @@
                         </h2>
                         <hr style="border-top: 2px solid #b39aa0; width: MAX; opacity: 1;">
 
-                        <p class="fs-5" style="font-family: 'Montserrat', sans-serif; line-height: 1.8; text-align: justify;">
-                            My professional interest is deeply rooted in the architecture of information, I am fascinated by how data flows through systems and the protocols that keep it secure. Moving forward, I aim to transform this passion into a career in <B>Cloud Engineering</B> or <B>Cloud Security</B>, where I can build and protect the infrastructures that hold the digital world. I aspire to further improve my adaptability and leadership skills, utilizing them to stay ahead in the ever-evolving tech field.
+                        <p class="fs-5"
+                            style="font-family: 'Montserrat', sans-serif; line-height: 1.8; text-align: justify;">
+                            My professional interest is deeply rooted in the architecture of information, I am
+                            fascinated by how data flows through systems and the protocols that keep it secure. Moving
+                            forward, I aim to transform this passion into a career in <B>Cloud Engineering</B> or
+                            <B>Cloud Security</B>, where I can build and protect the infrastructures that hold the
+                            digital world. I aspire to further improve my adaptability and leadership skills, utilizing
+                            them to stay ahead in the ever-evolving tech field.
                     </section>
 
                 </div>
@@ -85,22 +96,25 @@
     </main>
 
 
-
-    <!-- POSSIBLE CHANGE IN BURGER-->
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid" style="max-width: 1170px;">
 
-            <!-- BURGER ONLY VISIBLE WHEN SMALL SCREEN -->
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
+            <!-- DICTATES IF ANO GAGAMTIN, ALSO CLICKABLE > GO TO HOME PAGE-->
+            <a class="navbar-brand" href="index.html" style="color: #ffffff; font-family: 'Montserrat', sans-serif;" id="navbarNav">
+                <span class="d-none d-lg-inline">John Dexter</span>
+                <span class="d-lg-none">JD</span>
+            </a>
+
+            <!-- BURGER BUTTON -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#navigation-bar-hamburger">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a class="navbar-brand d-lg-none ms-auto" href="index.html">JD</a>
-
-            <!-- WIDE SCREEN NAVBAR -->
-            <div class="collapse navbar-collapse d-none d-lg-flex" style="color: #ffffff; font-family: 'Montserrat', sans-serif;" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+            <!-- BIG SCREEN NAVBAR -->
+            <div class="collapse navbar-collapse" style="font-family: 'Montserrat', sans-serif;" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <!-- PUSH SA RIGHT -->
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about-me.html">About Me</a></li>
                     <li class="nav-item"><a class="nav-link" href="tech-stack.html">Tech Stack</a></li>
@@ -108,13 +122,15 @@
                 </ul>
             </div>
 
-            <!-- SMALL SCREEN NAVBAR -->
-            <div class="offcanvas offcanvas-start text-bg-dark bg-black d-lg-none" tabindex="-1" style="color: #ffffff; font-family: 'Montserrat', sans-serif;"
-                id="navigation-bar-hamburger">
+            <!-- SMALL SCREEN NAVBAR - BURGER -->
+            <div class="offcanvas offcanvas-start text-bg-dark bg-black d-lg-none" tabindex="-1"
+                style="font-family: 'Montserrat', sans-serif;" id="navigation-bar-hamburger">
+
                 <div class="offcanvas-header border-bottom border-secondary">
                     <h5 class="offcanvas-title">JD Portfolio</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
                 </div>
+
                 <div class="offcanvas-body">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -127,6 +143,8 @@
 
         </div>
     </nav>
+
+
 
     <!-- VANTA JS FOR BACKGROUND -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
