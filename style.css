@@ -14,10 +14,6 @@ img#my-profile-image{
     
 }
 
-.line-break {
-    border: 1px solid #000000;         /* line separator, color and thickness */
-    margin: 10px 0;                    
-}
 
 
 .tech-logo {
@@ -76,4 +72,8 @@ img#my-profile-image{
         padding-left: 1.5rem; 
         padding-right: 1.5rem;
     }
+}
+
+#page-content {
+    opacity: 0;                         /* FIX, so that the contents doesnt load */
 }
