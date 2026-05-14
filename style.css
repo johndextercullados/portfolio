@@ -14,6 +14,11 @@ img#my-profile-image{
     
 }
 
+.tech-logo-name {
+    font-family: 'Montserrat', sans-serif; /* font for the tech stack names */
+    color: #ffffff;                      /* color for the tech stack names */
+    margin-top: 10px;                    /* space between logo and name */
+}
 
 
 .tech-logo {
